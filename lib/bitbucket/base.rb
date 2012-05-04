@@ -19,8 +19,17 @@ class Bitbucket::Base
       @password = options[:password]
     end
     if @username.nil? && @access_token.nil?
-      raise Error
+      raise Bitbucket::StandardError, "Can't initialize any authorization."
     end
+  end
+
+  def auth_type
+    if !@access_token.nil?
+      return :oauth
+    elsif !@username.nil?
+      return :basic
+    end
+    return nil
   end
 
   # 

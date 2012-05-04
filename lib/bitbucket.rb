@@ -1,4 +1,5 @@
 module Bitbucket
+  class Error < StandardError; end
 
   autoload :Configuration, 'bitbucket/configuration'
   autoload :Base,          'bitbucket/base'
