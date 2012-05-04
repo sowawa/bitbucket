@@ -16,4 +16,5 @@ Gem::Specification.new do |s|
   ]
   s.homepage    =
     'http://rubygems.org/gems/bitbucket'
+  s.add_dependency('oauth', '~>0.4.6')
 end
