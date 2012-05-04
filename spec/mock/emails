@@ -1,0 +1,20 @@
+HTTP/1.1 200 OK
+Server: nginx/1.0.6
+Date: Thu, 03 May 2012 08:45:39 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+Content-Length: 117
+Expires: Thu, 03 May 2012 08:45:39 GMT
+Vary: Authorization, Cookie
+Last-Modified: Thu, 03 May 2012 08:45:39 GMT
+Etag: "898989a8423ebf4a44c7ae2f8d16e863"
+Cache-Control: max-age=0
+Strict-Transport-Security: max-age=2592000
+
+[
+    {
+        "active": true,
+        "email": "sowawa@fluxflex.com",
+        "primary": true
+    }
+]

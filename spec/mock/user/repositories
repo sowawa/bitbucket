@@ -1,0 +1,29 @@
+HTTP/1.1 200 OK
+Server: nginx/1.0.6
+Date: Thu, 03 May 2012 08:52:20 GMT
+Content-Type: application/json; charset=utf-8
+Connection: close
+Content-Length: 370
+Expires: Thu, 03 May 2012 08:52:20 GMT
+Vary: Authorization, Cookie
+Last-Modified: Thu, 03 May 2012 08:52:20 GMT
+Etag: ""
+Cache-Control: max-age=0
+Strict-Transport-Security: max-age=2592000
+
+[
+    {
+        "owner": "sowasowa",
+        "scm": "git",
+        "slug": "orn-16eac0698815767137603d7ea2102cb3b0cd492b",
+        "is_private": true,
+        "name": "orn-16eac0698815767137603d7ea2102cb3b0cd492b"
+    },
+    {
+        "owner": "sowasowa",
+        "scm": "git",
+        "slug": "rails-4.0",
+        "is_private": true,
+        "name": "rails-4.0"
+    }
+]
